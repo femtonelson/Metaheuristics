@@ -11,7 +11,7 @@ f_bias[2] = F3_min = 390
 - Library : psopy(PSO)
 - Parameters of the algorithm : Number of particles, stable_iter(Number of iterations to wait before Swarm is declared stable) 
 - Stopping criterion : stable_iter = 100
-- Number of function evaluations : see below
-- Computational time : see below
-- Convergence curve : see below
-- Final results (solution and fitness) : see below
+- Number of function evaluations : see notebook
+- Computational time : see notebook
+- Convergence curve : see notebook
+- Final results (solution and fitness) : see notebook
