@@ -7,7 +7,7 @@ Input data (in TSPLIB format) obtained from the link: http://www.math.uwaterloo.
 - Parameters of the algorithm : Number of individuals, number of generations, mutation/crossover/selection strategy  
 - Parameter tuning : Stepwise comparison of selection/crossover/mutation strategies provided in pygmo package reveals the following best parameters<br>
   selection = "truncated" - selection of best chromosomes over entire population<br>
-  crossover = "single" - selecting a random point in the parent chromosome and inserting the partner chromosome thereafter with crossover probability
+  crossover = "single" - selecting a random point in the parent chromosome and inserting the partner chromosome thereafter with crossover probability<br>
   mutation = "uniform" - Random sampling from the chromosome bounds<br>
   mutation probability = 0.05
 - Stopping criterion : Number of generations = specified value
