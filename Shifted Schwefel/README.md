@@ -7,7 +7,7 @@ F2: schwefeldat -> shape = (1000,)
 The fitness or value of this function at its minimum is also available in numpy array "f_bias" in "data.py". This is the the target fitness value to achieve.
 f_bias[1] = F2_min = -450
 
-Algorithm : Particle Swarm Optimization - The shifted schwefel function is not differentiable throughout the search space. As such, a gradient-based method produces unstable results and does not guarantee convergence. The heuristic-based PSO algorithm is suitable for this unconstrained, non-linear, unimodal problem in the continuous domain.
+Algorithm : Particle Swarm Optimization - The shifted schwefel function is not differentiable throughout the search space. As such, a gradient-based method produces unstable results and does not guarantee convergence. The heuristic-based PSO algorithm is suitable for this unconstrained, non-linear, unimodal problem in the continuous domain.<br>
 Library : psopy
 Parameters of the algorithm : Number of particles, stable_iter(Number of iterations to wait before Swarm is declared stable)
 Stopping criterion : stable_iter = 100
