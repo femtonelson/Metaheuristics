@@ -1,1 +1,1 @@
-Solving 6 Continuous and 2 Discrete Problems with Metaheuristics
+Solving 6 Continuous (Unimodal and Mutlimodal) and 2 Discrete Problems (Travelling Salesman) with Metaheuristics
