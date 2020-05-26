@@ -8,10 +8,10 @@ The fitness or value of this function at its minimum is also available in numpy 
 f_bias[1] = F2_min = -450
 
 Algorithm : Particle Swarm Optimization - The shifted schwefel function is not differentiable throughout the search space. As such, a gradient-based method produces unstable results and does not guarantee convergence. The heuristic-based PSO algorithm is suitable for this unconstrained, non-linear, unimodal problem in the continuous domain.<br>
-Library : psopy
-Parameters of the algorithm : Number of particles, stable_iter(Number of iterations to wait before Swarm is declared stable)
-Stopping criterion : stable_iter = 100
-Number of function evaluations : see notebook
-Computational time : see notebook
-Convergence curve : see notebook
+Library : psopy<br>
+Parameters of the algorithm : Number of particles, stable_iter(Number of iterations to wait before Swarm is declared stable)<br>
+Stopping criterion : stable_iter = 100<br>
+Number of function evaluations : see notebook<br>
+Computational time : see notebook<br>
+Convergence curve : see notebook<br>
 Final results (solution and fitness) : see notebook
